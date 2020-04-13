@@ -6,16 +6,8 @@ phases:
       - echo Installing Node 12...
       - curl -sL https://deb.nodesource.com/setup_12.x | bash -
       - apt install -y nodejs
-     
-  pre_build:
-    commands:
-      
+  
   build:
     commands:
       - echo Building...
       - npm build
-artifacts:
-  files:
-    - "**/*"
-  discard-paths: no
-  base-directory: dist
