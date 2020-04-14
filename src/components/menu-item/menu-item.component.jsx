@@ -5,7 +5,7 @@ import React from 'react'
 import '../menu-item/menu-item.styles.scss'
 
 const MenuItem = ({title,imageUrl}) => (
-
+ 
     <div className="menu-item">
 
         <div className="background-image"
