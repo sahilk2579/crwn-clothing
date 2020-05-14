@@ -3,7 +3,11 @@ import React from 'react'
 import './homepage.style.scss';
 import Directory from  '../../directory/directory.component.jsx';
 
-const Homepage = () => (
+const Homepage = (props) => 
+{
+   
+    return(
+
 
     <div className="homepage">
         <Directory/>
@@ -11,4 +15,5 @@ const Homepage = () => (
 
 )
 
+}
 export default Homepage;
