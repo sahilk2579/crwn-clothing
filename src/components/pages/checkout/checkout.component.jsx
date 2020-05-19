@@ -8,7 +8,11 @@ import cartItem from '../../cart-item/cart-item.component';
 import CheckoutItem from '../../checkout-item/checkout-item.component';
 
 
+
 const CheckoutPage = ({cartItems,total}) => {
+
+    console.log(cartItems)
+
     return (
         <div className='checkout-page'>
             <div className='checkout-header'>
